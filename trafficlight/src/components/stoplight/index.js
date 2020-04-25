@@ -37,7 +37,7 @@ class Stoplight extends Component {
                     this.setState({ litLight: ["yellow"] });
                     break;
                 default:
-                    Console.log("somehthign weird happened");
+                    console.log("somehthign weird happened");
             }
         }, this.state.interval);
     }
